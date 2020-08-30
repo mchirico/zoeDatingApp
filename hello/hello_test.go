@@ -1,6 +1,9 @@
 package hello
 
-import "testing"
+import (
+	"testing"
+	"fmt"
+)
 
 func TestBozo(t *testing.T) {
 	tests := []struct {
@@ -17,3 +20,8 @@ func TestBozo(t *testing.T) {
 		})
 	}
 }
+
+func TestDating(t *testing.T) {
+	fmt.Printf("this is a test...")
+}
+
